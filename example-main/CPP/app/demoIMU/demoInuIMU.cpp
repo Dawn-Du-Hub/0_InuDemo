@@ -88,6 +88,7 @@ void showIMU2(InuDataPath* p_inuDataPath)
 #endif
 // 由于IMU的帧率较高，demoInuIMU 中有时会造成帧率错乱，因此把显示直接放到了 inuIMU.cpp 的回调中
 // 请根据自身电脑性能实测确定放到合适的地方显示
+// IMU CPP
 int main(int argc, char* argv[])
 {
     spdlog_init();
