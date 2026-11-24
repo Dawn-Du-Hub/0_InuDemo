@@ -1,0 +1,1347 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "component/params",
+					"jsonFile" : "directory-component.params-Debug-a258f047a6f6478688b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "component/params",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "component/datapath",
+					"jsonFile" : "directory-component.datapath-Debug-b68d9ad374a7c8afca7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "component/datapath",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "component/sensor",
+					"jsonFile" : "directory-component.sensor-Debug-4cd395157e5da7e8d0a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "component/sensor",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "component/logger",
+					"jsonFile" : "directory-component.logger-Debug-6bc9af32e882b350aff1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "component/logger",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "component/rgb",
+					"jsonFile" : "directory-component.rgb-Debug-a99b423ae7fa106a9dba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "component/rgb",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "component/depth",
+					"jsonFile" : "directory-component.depth-Debug-823b05e8a4863cd2975e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "component/depth",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "component/ir",
+					"jsonFile" : "directory-component.ir-Debug-6dc0eb9b97ab92c1d691.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "component/ir",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "component/pcl",
+					"jsonFile" : "directory-component.pcl-Debug-f2b43f540a38751d4de8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "component/pcl",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "component/imu",
+					"jsonFile" : "directory-component.imu-Debug-dcddb5a72c1a616b18e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "component/imu",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "component/tempera",
+					"jsonFile" : "directory-component.tempera-Debug-e0104b4c1ec2f72faf70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "component/tempera",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "component/fe",
+					"jsonFile" : "directory-component.fe-Debug-9eab681267d98ebdc5fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "component/fe",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "component/feature",
+					"jsonFile" : "directory-component.feature-Debug-9589b813b1f38fccf7ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "component/feature",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "component/slam",
+					"jsonFile" : "directory-component.slam-Debug-b92e767276ccd11acf3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "component/slam",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "component/cnn",
+					"jsonFile" : "directory-component.cnn-Debug-22a7c70269b0bac563d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "component/cnn",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "app/demoParams",
+					"jsonFile" : "directory-app.demoParams-Debug-e31aee37648dc4f14452.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "app/demoParams",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "app/demoSensor",
+					"jsonFile" : "directory-app.demoSensor-Debug-bb0cd8e7359d419ee2f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "app/demoSensor",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "app/demoRGB",
+					"jsonFile" : "directory-app.demoRGB-Debug-5907bd6740f1b402fd63.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "app/demoRGB",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "app/demoDepth",
+					"jsonFile" : "directory-app.demoDepth-Debug-6bc56e78382335aad19c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "app/demoDepth",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "app/demoIR",
+					"jsonFile" : "directory-app.demoIR-Debug-24cf63dac6147071866a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "app/demoIR",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "app/demoReconnect",
+					"jsonFile" : "directory-app.demoReconnect-Debug-1e8945ff6632089bfc91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "app/demoReconnect",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "app/demoDisparity",
+					"jsonFile" : "directory-app.demoDisparity-Debug-a18d4d4b4e706b03e76b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "app/demoDisparity",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "app/demo2Depth",
+					"jsonFile" : "directory-app.demo2Depth-Debug-b5c6a45b53a4a87689a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 22,
+					"source" : "app/demo2Depth",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "app/demoD2C",
+					"jsonFile" : "directory-app.demoD2C-Debug-3dbbe9e719525b28e26c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "app/demoD2C",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "app/demoPCL",
+					"jsonFile" : "directory-app.demoPCL-Debug-c955ff10c2172d3fe906.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 24,
+					"source" : "app/demoPCL",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "app/demoDepthPCL",
+					"jsonFile" : "directory-app.demoDepthPCL-Debug-4d4f8f7e59cae99b6889.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 25,
+					"source" : "app/demoDepthPCL",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "3drparty/filter",
+					"jsonFile" : "directory-3drparty.filter-Debug-9e9ed06029d4e9258384.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 26,
+					"source" : "3drparty/filter",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "app/demoDepth3partyFilter",
+					"jsonFile" : "directory-app.demoDepth3partyFilter-Debug-be5a86380a67aa7dfd5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 27,
+					"source" : "app/demoDepth3partyFilter",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "app/demoIMU",
+					"jsonFile" : "directory-app.demoIMU-Debug-58e5854671648dcec067.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 28,
+					"source" : "app/demoIMU",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "app/demoTempera",
+					"jsonFile" : "directory-app.demoTempera-Debug-6c4c3e3a8597b56d7188.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 29,
+					"source" : "app/demoTempera",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "app/demoFisheye",
+					"jsonFile" : "directory-app.demoFisheye-Debug-e1707a907fb445385326.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 30,
+					"source" : "app/demoFisheye",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "app/demoFeature6DOF",
+					"jsonFile" : "directory-app.demoFeature6DOF-Debug-02c44b3f753cc5a2506e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 31,
+					"source" : "app/demoFeature6DOF",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "app/tools/demoUsbPort",
+					"jsonFile" : "directory-app.tools.demoUsbPort-Debug-299caa5264dce547f3b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 32,
+					"source" : "app/tools/demoUsbPort",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "app/tools/demoDepthQuality",
+					"jsonFile" : "directory-app.tools.demoDepthQuality-Debug-2a1148ae5bec8c4e95c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 33,
+					"source" : "app/tools/demoDepthQuality",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "app/demoDsyncC",
+					"jsonFile" : "directory-app.demoDsyncC-Debug-4e98066e8653eb908a7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 34,
+					"source" : "app/demoDsyncC",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "app/demoCnn",
+					"jsonFile" : "directory-app.demoCnn-Debug-405fdcc15d97991b6abc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 35,
+					"source" : "app/demoCnn",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "app/demoAutoCalib",
+					"jsonFile" : "directory-app.demoAutoCalib-Debug-4ec48476473ec4877748.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 36,
+					"source" : "app/demoAutoCalib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "InuChipExample"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "inuComponentParams",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "inuComponentDataPath",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "inuComponentSensor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "inuComponentRGB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "inuComponentDepth",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "inuComponentIR",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "inuComponentPCL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "inuComponentIMU",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "inuComponentTempera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "inuComponentFE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "inuComponentFeature",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "inuComponentSlam",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "inuComponentCNN",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "InuChipExampleParams",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "InuChipExampleSensor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "InuChipExampleRGB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "InuChipExampleDepth",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "InuChipExampleIR",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "InuChipExampleReconnect",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "InuChipExampleDisparity",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "InuChipExample2Depth",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "InuChipExampleD2C",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "InuChipExamplePCL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "InuChipExampleDepthPCL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "inu3drpartyFilter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "InuChipExampleDepth3partyFilter",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "InuChipExampleIMU",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "InuChipExampleTempera",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "InuChipExampleFE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "InuChipExampleFeature6DOF",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "InuChipExampleUsbPort",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "InuChipExampleDepthQuality",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "InuChipExampleDsyncC",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "InuChipExampleCnn",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "InuChipExampleAutoCalib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 22,
+					"id" : "InuChipExample2Depth::@894d8970b361d4b5ff24",
+					"jsonFile" : "target-InuChipExample2Depth-Debug-53def3e313551e00c492.json",
+					"name" : "InuChipExample2Depth",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "InuChipExampleAutoCalib::@da4df5850da936888c25",
+					"jsonFile" : "target-InuChipExampleAutoCalib-Debug-32aa1076711a650999df.json",
+					"name" : "InuChipExampleAutoCalib",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "InuChipExampleCnn::@040fd7cdedcb5497ffb7",
+					"jsonFile" : "target-InuChipExampleCnn-Debug-ba7b90b6d541c0df028e.json",
+					"name" : "InuChipExampleCnn",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "InuChipExampleD2C::@bac8d12ef6ea58bc43fa",
+					"jsonFile" : "target-InuChipExampleD2C-Debug-6fb2c044a65aea17446f.json",
+					"name" : "InuChipExampleD2C",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "InuChipExampleDepth::@7c45752131d9f70da455",
+					"jsonFile" : "target-InuChipExampleDepth-Debug-87210a0df8900135bb4e.json",
+					"name" : "InuChipExampleDepth",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "InuChipExampleDepth3partyFilter::@e6fa4cb035aed8098a8a",
+					"jsonFile" : "target-InuChipExampleDepth3partyFilter-Debug-406e03500e74fa493959.json",
+					"name" : "InuChipExampleDepth3partyFilter",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "InuChipExampleDepthPCL::@fe43328197b8c41a38fa",
+					"jsonFile" : "target-InuChipExampleDepthPCL-Debug-773602f7222ac9f200cd.json",
+					"name" : "InuChipExampleDepthPCL",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "InuChipExampleDepthQuality::@52feccff0b6f00056f53",
+					"jsonFile" : "target-InuChipExampleDepthQuality-Debug-0ea86947dc931774c23b.json",
+					"name" : "InuChipExampleDepthQuality",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "InuChipExampleDisparity::@98d3a7afcef4e6cf38a8",
+					"jsonFile" : "target-InuChipExampleDisparity-Debug-f6385617aa27e5d28c57.json",
+					"name" : "InuChipExampleDisparity",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "InuChipExampleDsyncC::@373b4fe255fc68c4c191",
+					"jsonFile" : "target-InuChipExampleDsyncC-Debug-e70d66371be666d90dc6.json",
+					"name" : "InuChipExampleDsyncC",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "InuChipExampleFE::@4b7ec683de884b57827f",
+					"jsonFile" : "target-InuChipExampleFE-Debug-aaa789f875cbe7af0c8c.json",
+					"name" : "InuChipExampleFE",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "InuChipExampleFeature6DOF::@fd374819a5396666b546",
+					"jsonFile" : "target-InuChipExampleFeature6DOF-Debug-d2d94b42be18ae615afd.json",
+					"name" : "InuChipExampleFeature6DOF",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "InuChipExampleIMU::@84e1c3393a78cec4d28d",
+					"jsonFile" : "target-InuChipExampleIMU-Debug-b6513e25cdbd304fe985.json",
+					"name" : "InuChipExampleIMU",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "InuChipExampleIR::@454969677a0928b44638",
+					"jsonFile" : "target-InuChipExampleIR-Debug-f52477c85fed059eb790.json",
+					"name" : "InuChipExampleIR",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "InuChipExamplePCL::@786a1548f3720a4bd0d8",
+					"jsonFile" : "target-InuChipExamplePCL-Debug-a412ffdf24fb7bfd9e0c.json",
+					"name" : "InuChipExamplePCL",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "InuChipExampleParams::@87ce68e23370eb99d8e8",
+					"jsonFile" : "target-InuChipExampleParams-Debug-3d169db771e66f57c0be.json",
+					"name" : "InuChipExampleParams",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "InuChipExampleRGB::@0bb03fde81ffff401e2e",
+					"jsonFile" : "target-InuChipExampleRGB-Debug-40629b61259f56d2b213.json",
+					"name" : "InuChipExampleRGB",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "InuChipExampleReconnect::@5016f3fbb99b6bf8f598",
+					"jsonFile" : "target-InuChipExampleReconnect-Debug-31389b9ac14f5bd082f9.json",
+					"name" : "InuChipExampleReconnect",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "InuChipExampleSensor::@4ce2b4bc6cbb06b112a2",
+					"jsonFile" : "target-InuChipExampleSensor-Debug-05ce3949b84d0f04eb52.json",
+					"name" : "InuChipExampleSensor",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "InuChipExampleTempera::@fc15266501b97349c765",
+					"jsonFile" : "target-InuChipExampleTempera-Debug-b86c691fcd95bfdfe03d.json",
+					"name" : "InuChipExampleTempera",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "InuChipExampleUsbPort::@0801a097a1877e067108",
+					"jsonFile" : "target-InuChipExampleUsbPort-Debug-4a0a76a96a086f2219d6.json",
+					"name" : "InuChipExampleUsbPort",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "inu3drpartyFilter::@a30e2d236ba08fbcc58c",
+					"jsonFile" : "target-inu3drpartyFilter-Debug-eced0add9d906fed0b8f.json",
+					"name" : "inu3drpartyFilter",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "inuComponentCNN::@164d25e75500161a1aaa",
+					"jsonFile" : "target-inuComponentCNN-Debug-e657609f9587b30416b1.json",
+					"name" : "inuComponentCNN",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "inuComponentDataPath::@24567a2dfcf3fc055b18",
+					"jsonFile" : "target-inuComponentDataPath-Debug-08e97affb44e17269e2b.json",
+					"name" : "inuComponentDataPath",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "inuComponentDepth::@b4367fe4dd30d4bff5e4",
+					"jsonFile" : "target-inuComponentDepth-Debug-41f133bc871076518120.json",
+					"name" : "inuComponentDepth",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "inuComponentFE::@b8f340268cb4ed3a89b0",
+					"jsonFile" : "target-inuComponentFE-Debug-c3c2f6cf735d61b8a73a.json",
+					"name" : "inuComponentFE",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "inuComponentFeature::@742ff5d6208e15ab06c1",
+					"jsonFile" : "target-inuComponentFeature-Debug-d9dc3d3723a7dbd66e70.json",
+					"name" : "inuComponentFeature",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "inuComponentIMU::@6e9d5ab9b4c9398ae8b9",
+					"jsonFile" : "target-inuComponentIMU-Debug-5cd8fe4a29567a9c1f48.json",
+					"name" : "inuComponentIMU",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "inuComponentIR::@f6458fe8d5ba918b71d4",
+					"jsonFile" : "target-inuComponentIR-Debug-fc6174c5587e874dc0b4.json",
+					"name" : "inuComponentIR",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "inuComponentPCL::@50b3481ddb0381de437d",
+					"jsonFile" : "target-inuComponentPCL-Debug-7023c3f61e1762f7aeda.json",
+					"name" : "inuComponentPCL",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "inuComponentParams::@9b6bf1175f9ac4c252b5",
+					"jsonFile" : "target-inuComponentParams-Debug-b056a9072a1245c8fb07.json",
+					"name" : "inuComponentParams",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "inuComponentRGB::@ec56465ed598bd08dfad",
+					"jsonFile" : "target-inuComponentRGB-Debug-e3a6c70e2684421cc7ce.json",
+					"name" : "inuComponentRGB",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "inuComponentSensor::@6ded05152e2ffd43be24",
+					"jsonFile" : "target-inuComponentSensor-Debug-cd1fc5080167f73d38db.json",
+					"name" : "inuComponentSensor",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "inuComponentSlam::@34575391b891a812ff35",
+					"jsonFile" : "target-inuComponentSlam-Debug-9f4b1c9d843e0d768942.json",
+					"name" : "inuComponentSlam",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "inuComponentTempera::@f178abe26fcca886cd10",
+					"jsonFile" : "target-inuComponentTempera-Debug-b25f8bbcf4503e8b8b65.json",
+					"name" : "inuComponentTempera",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "spdlog::@0e73413853572aab423e",
+					"jsonFile" : "target-spdlog-Debug-5f510768efec10ccf13d.json",
+					"name" : "spdlog",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/1_work/0_Project/example-main (1)/example-main/CPP/out/build/x64-Debug",
+		"source" : "D:/1_work/0_Project/example-main (1)/example-main/CPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

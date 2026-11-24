@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/1_work/0_Project/example-main (1)/example-main/CPP/out/build/x64-Debug/app/demoSensor/CMakeFiles/InuChipExampleSensor.dir/embed.manifest"

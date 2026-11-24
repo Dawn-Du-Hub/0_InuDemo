@@ -1,0 +1,55 @@
+# ninja log v6
+101	4867	8107284276527654	component/datapath/CMakeFiles/inuComponentDataPath.dir/inuDataPath.cpp.obj	f22466b04c2fc542
+228	11331	8107284277807356	component/depth/CMakeFiles/inuComponentDepth.dir/inuDepthFilter.cpp.obj	165c7556f2e3b766
+78	12388	8107284276297674	component/params/CMakeFiles/inuComponentParams.dir/inuParams.cpp.obj	658e1b9970f0b53a
+311	12666	8107284278625282	component/imu/CMakeFiles/inuComponentIMU.dir/inuIMU.cpp.obj	2b8ac9ee37dbe82d
+282	12845	8107284278344027	component/pcl/CMakeFiles/inuComponentPCL.dir/inuPCL.cpp.obj	f43f3d50377e72a3
+201	13029	8107284277532173	component/depth/CMakeFiles/inuComponentDepth.dir/inuDepth.cpp.obj	7a56386f9e25ae44
+150	13154	8107284277027317	component/logger/CMakeFiles/spdlog.dir/spdlog.cpp.obj	c5664416ded6bee8
+127	14792	8107284276782187	component/sensor/CMakeFiles/inuComponentSensor.dir/inuSensor.cpp.obj	35e2a60dfde9cfb9
+256	14986	8107284278075487	component/ir/CMakeFiles/inuComponentIR.dir/inuIR.cpp.obj	c43218eae9d36986
+176	15159	8107284277280768	component/rgb/CMakeFiles/inuComponentRGB.dir/inuRGB.cpp.obj	111986a458b956c0
+4873	18932	8107284324257623	component/tempera/CMakeFiles/inuComponentTempera.dir/inuTempera.cpp.obj	cf96f44d0565f76
+15178	20868	8107284427310304	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentParams.lib	d5ee1c2900b8bf82
+18952	21924	8107284465053011	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentDataPath.lib	8630b9706cf5f6b1
+13048	22602	8107284406009957	3drparty/filter/CMakeFiles/inu3drpartyFilter.dir/src/depth2pc.cpp.obj	495b916b1bdbe64c
+13173	22695	8107284407255230	3drparty/filter/CMakeFiles/inu3drpartyFilter.dir/src/depth2rgb.cpp.obj	ff5a1dc762294d9
+20869	22834	8107284484214360	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentSensor.lib	6e859efa987c9370
+14814	23104	8107284423665062	3drparty/filter/CMakeFiles/inu3drpartyFilter.dir/src/space_filter.cpp.obj	5db01905126efc1f
+15008	23207	8107284425604883	3drparty/filter/CMakeFiles/inu3drpartyFilter.dir/src/temporal_filter.cpp.obj	485bc5181fd1edf6
+21924	23399	8107284494777689	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/spdlog.lib	6898ff813532c1ff
+22696	23632	8107284502490216	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentDepth.lib	66f95759da5ab74b
+22609	23775	8107284501624952	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentRGB.lib	357487a2394b7356
+22835	23964	8107284503875553	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentIR.lib	1ca272efff0b75d8
+23106	24076	8107284506601323	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentPCL.lib	6b3eafbcaf9ba930
+23209	24166	8107284507616567	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentIMU.lib	c07ac08739b54981
+23400	24252	8107284509527158	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentTempera.lib	62572065d8641c97
+12866	27029	8107284404194561	component/cnn/CMakeFiles/inuComponentCNN.dir/inuCNN.cpp.obj	8ab26360d5c398cd
+12409	27712	8107284399619381	component/feature/CMakeFiles/inuComponentFeature.dir/inuFeature.cpp.obj	e9ad52f4e5621f9b
+11353	27889	8107284389054888	component/fe/CMakeFiles/inuComponentFE.dir/inuFE.cpp.obj	8c5275cc95286538
+12691	27993	8107284402440658	component/slam/CMakeFiles/inuComponentSlam.dir/inuSlam.cpp.obj	9a062eccc3c1dd88
+27050	29300	8107284546034484	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentCNN.lib	5c80636c0114820a
+27733	29402	8107284552859022	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentFeature.lib	4af5d76ddb4849ff
+27908	29518	8107284554607796	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentFE.lib	124364439d8d19f7
+28017	29607	8107284555700610	D:/1_work/0_Project/example-main (1)/example-main/CPP/component/lib/inuComponentSlam.lib	95824b344d9d894a
+23633	34441	8107284511857752	app/demoParams/CMakeFiles/InuChipExampleParams.dir/demoInuParams.cpp.obj	da2cbdb1ad737612
+23776	34674	8107284513288195	app/demoSensor/CMakeFiles/InuChipExampleSensor.dir/demoInuSensor.cpp.obj	100be331866f8963
+34695	37983	8107284622474434	D:/1_work/0_Project/example-main (1)/example-main/CPP/3drparty/filter/lib/inu3drpartyFilter.lib	5c822d4d3cb566ef
+23964	40069	8107284515178759	app/demoRGB/CMakeFiles/InuChipExampleRGB.dir/demoInuRGB.cpp.obj	9df27ada465c40be
+24077	41154	8107284516303973	app/demoDepth/CMakeFiles/InuChipExampleDepth.dir/demoInuDepth.cpp.obj	87e0e2128ab261e3
+24167	41702	8107284517201567	app/demoIR/CMakeFiles/InuChipExampleIR.dir/demoInuIR.cpp.obj	3efc4016e3c3fbf6
+24253	41888	8107284518056814	app/demoReconnect/CMakeFiles/InuChipExampleReconnect.dir/demoInuReconnect.cpp.obj	52b87977d422c72f
+29402	46370	8107284569548422	app/demo2Depth/CMakeFiles/InuChipExample2Depth.dir/demoInu2Depth.cpp.obj	3e96167b5539cc59
+29519	46633	8107284570715810	app/demoD2C/CMakeFiles/InuChipExampleD2C.dir/demoInuD2C.cpp.obj	e1546056816f3fbd
+29301	46830	8107284568543111	app/demoDisparity/CMakeFiles/InuChipExampleDisparity.dir/demoInuDisparity.cpp.obj	2d6d325b026efa34
+46390	49016	8107284739428353	app/tools/demoUsbPort/CMakeFiles/InuChipExampleUsbPort.dir/demoInuUsbPort.cpp.obj	31ec4c7c7f03ca4b
+40087	54544	8107284676405719	app/demoIMU/CMakeFiles/InuChipExampleIMU.dir/demoInuIMU.cpp.obj	d9dcbc8870deb5bd
+37984	56555	8107284655363940	app/demoDepth3partyFilter/CMakeFiles/InuChipExampleDepth3partyFilter.dir/demoInuDepth3partyFilter.cpp.obj	3454d0f1ba82cad3
+41173	56780	8107284687253820	app/demoTempera/CMakeFiles/InuChipExampleTempera.dir/demoInuTempera.cpp.obj	e4e64585399b10ca
+41727	60904	8107284692798905	app/demoFisheye/CMakeFiles/InuChipExampleFE.dir/demoInuFisheye.cpp.obj	568a7b449352f191
+41907	61228	8107284694594915	app/demoFeature6DOF/CMakeFiles/InuChipExampleFeature6DOF.dir/demoInuFeature6DOF.cpp.obj	d2575f307e03bb1a
+46849	64977	8107284744017422	app/demoDsyncC/CMakeFiles/InuChipExampleDsyncC.dir/demoInuDsyncC.cpp.obj	c20563ef6e1aa1da
+49017	66278	8107284765694220	app/demoCnn/CMakeFiles/InuChipExampleCnn.dir/demoInuCnn.cpp.obj	10f5c86a2d0c5378
+29607	69699	8107284571600493	app/demoPCL/CMakeFiles/InuChipExamplePCL.dir/demoInuPCL.cpp.obj	40224543b42c80fe
+34460	70963	8107284620129333	app/demoDepthPCL/CMakeFiles/InuChipExampleDepthPCL.dir/demoInuDepthPCL.cpp.obj	642777a0211325e7
+46656	78859	8107284742089033	app/tools/demoDepthQuality/CMakeFiles/InuChipExampleDepthQuality.dir/demoInuDepthQuality.cpp.obj	d44f996cf6a119d2

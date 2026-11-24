@@ -1,0 +1,147 @@
+######################################################################################
+# Common setting
+######################################################################################
+inu_Sensor_setting:
+  # IP address for IP connect. "" is default.
+  IP_Address: ""
+
+  # Device ID support for multiple sensors. "" is default. "1" or "2" can be used for multiple sensors
+  Device_ID: ""
+
+  # General FPS, Default: -1 (can be overriden for specific channels)
+  FPS: 15 
+
+  # General default resolution. 0 - Default (Full), 1 - Binning, 2 - VerticalBInning, 3 - Full
+  Resolution: 1
+
+  # Open Depth
+  DepthOn: true
+
+  # Open RGB
+  RGBOn: true
+
+######################################################################################
+# Depth setting
+######################################################################################
+inu_Depth_setting:
+  # depth FPS
+  FPS: 15
+
+  # -1 - Default  (3 or 5)  donot change this unless have speical reason
+  Channel: 5 
+
+  # 0 - Default (Full), 1 - Binning, 2 - VerticalBInning, 3 - Full
+  Resolution: 1 
+
+  # 0 - depth, 1 - raw (disparity)
+  OutputFormat: 1 
+
+  # 0 - none, 2 - Blob (applicable only on when disparity is received from the FW) , 4 - Temporal, 8 - Outlier Removal, 16 - Hole Fill, 32 - Static Temporal， 255 default
+  PostProcessing: 6
+
+  # RGB channel to register, Default: -1 (-1: do not register; 4: register to RGB channel 4, 9: register to RGB channel 9)
+  RegistrationChannel: -1 
+
+  # Confidence [0，7], can dynamic change through API
+  Confidence: 1
+
+  #depth scale 1,10  1: depth 1mm, 10 depth 0.1mm
+  DepthScale: 1
+
+  #####################################
+  ## do not change, unless you know it
+  # exposure method
+  Exposure: true
+
+  # exposure analog gain
+  AnalogGain: 3.0
+
+  # exposure digital gain
+  DigitalGain: 0.0
+
+  # exposure time
+  ExposureTime: 300
+
+  # exposure ROI
+  ExposureUseROI: false
+
+  ExposureTop: 100
+
+  ExposureLeft: 100
+
+  ExposureBottom: 300
+
+  ExposureRight: 300
+
+  #####################################
+  ## do not change, unless you know it
+  # 2 - remove small patches, 3 - fill small pathes, 4 - both mode 2 and mode 3
+  SDKBlobMode: 4
+  # Maximum number of pixels which be considered as Blob.
+  SDKBlobMaxSize: 2500
+  # The maximum number of rows which be considered as Blob.
+  SDKBlobMaxHeight: 300
+  # Blob algorithm : disparity threshold, will be executed as pre - process
+  SDKBlobDisparityThreshold: 0
+  # This parameter represents the max difference for pixels disparity to be considered as the same Blob.
+  # As this parameter is bigger more pixels will labeled as the same blob.
+  SDKBlobDispDiffSameBlob: 1
+
+  SDKTemporalStable: 50
+  SDKTemporalRapid: 500 
+######################################################################################
+# RGB setting
+######################################################################################
+inu_RGB_setting:
+  # depth FPS
+  FPS: 15
+
+  # (8 or 9) |4100 chip: 8 |4000 chip: 9
+  Channel: 8 
+
+  # 0 - Default (Full), 1 - Binning, 2 - VerticalBInning, 3 - Full
+  Resolution: 1 
+
+  #eDefault - 0        Provides CImageFrames with CImageFormat::eBGRA, on Android CImageFormat::eRGBA
+  #eRaw     - 1        Provides CImageFrames as streamed by Inuitive chip, no additional processing on Host
+  #eBGRA    - 2        Provides CImageFrames of CImageFormat::eBGRA format
+  #eRGBA    - 3        Provides CImageFrames of CImageFormat::eRGBA format
+  #eBGR     - 4        Provides CImageFrame of CImageFormat::eBGR format
+  OutputFormat: 0
+
+  # 0 - None, 1 - eRegistered, 2 - eUndistorted, 4 - eGammaCorrect
+  PostProcessing: 0
+
+  # Depth channel to register, Default: -1 (-1: do not register; 3: register to depth channel 3, 5: register to depth channel 5)
+  RegistrationChannel: -1
+
+  #####################################
+  ## do not change, unless you know it
+  # exposure method
+  Exposure: true
+
+  # exposure analog gain
+  AnalogGain: 0
+
+  # exposure digital gain
+  DigitalGain: 5.31
+
+  # exposure time
+  ExposureTime: 300
+
+######################################################################################
+# PCL setting
+######################################################################################
+inu_PCL_setting:
+  # 0 - None, 1 - Registered
+  OutputFormat: 1
+
+  # RGB channel to register (8 ,9)
+  RegistrationChannel: 8
+
+######################################################################################
+# FishEye setting
+######################################################################################
+inu_FE_setting:
+  # -1 - Default (2) donot change this unless have speical reason
+  Channel: 2
